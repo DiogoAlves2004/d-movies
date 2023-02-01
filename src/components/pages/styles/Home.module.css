@@ -1,0 +1,9 @@
+.home_container{
+
+}
+
+.bar{
+    width: fit-content;
+    position: relative;
+    left: 4%;
+}
