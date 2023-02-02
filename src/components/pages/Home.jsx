@@ -84,10 +84,8 @@ function Home(){
                     fetch(searchURL)
                     .then((response)=>response.json())
                     .then((response) => {
-                        console.log(response)
                         setData(response.results)
                     }).catch((error)=>console.log(error))
-
 
 
         }
@@ -149,7 +147,6 @@ function Home(){
                                     title = 'Sorry'
                                 }
 
-                                console.log(image)
 
             
 

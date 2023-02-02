@@ -11,6 +11,7 @@ import Filmes from "./components/pages/Filmes";
 
 //components
 import Navbar from './components/layout/navbar/Navbar'
+import Footer from "./components/layout/footer/Footer";
 
 function App() {
 
@@ -29,6 +30,8 @@ return (
           <Route path="/series" element={<Series />} />
           <Route path="/filmes" element={<Filmes />} />
         </Routes>
+
+        <Footer />
 
     </Router>
 
